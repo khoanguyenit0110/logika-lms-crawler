@@ -1,0 +1,30 @@
+QUICK START - LOGIKA LMS CRAWLER
+
+1) Giải nén file ZIP này.
+
+2) Mở folder vừa giải nén bằng Terminal/PowerShell.
+
+3) Cài dependencies:
+   npm install
+   npm run install-browser
+
+4) Login LMS lần đầu:
+   npm run login
+
+   Trình duyệt sẽ mở ra. Login LMS xong, quay lại Terminal và bấm Enter.
+
+5) Mở file urls.txt, dán mỗi URL LMS vào 1 dòng.
+
+6) Chạy capture:
+   npm run crawl
+
+7) Xem kết quả trong folder output/
+
+Nếu dùng Windows, có thể double-click:
+- run_login_windows.bat
+- run_crawl_windows.bat
+
+Lưu ý:
+- Crawler capture screenshot + html + assets + capture.json.
+- Rating page sẽ bị skip.
+- Scratch activity chỉ replicate UI bằng screenshot, không export project chạy thật.

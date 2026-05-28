@@ -1,0 +1,5 @@
+# Put one LMS task/lesson URL per line.
+# Example:
+# https://lms.logikaschool.com/task-preview/26864?task=26864&level=1&track=1
+# https://lms.logikaschool.com/task-preview/26837?track=1&lesson=9623&position=1
+https://lms.logikaschool.com/task-preview/18341?track=1&lesson=8464&position=1

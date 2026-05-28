@@ -1,0 +1,5 @@
+.playwright-profile/
+node_modules/
+output/*.zip
+work/
+.DS_Store

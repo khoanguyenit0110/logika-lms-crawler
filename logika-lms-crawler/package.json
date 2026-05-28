@@ -1,0 +1,16 @@
+{
+  "name": "logika-lms-crawler",
+  "version": "1.0.0",
+  "description": "Capture Logika LMS pages into ZIP files with JSON, screenshots, HTML, and relative assets.",
+  "main": "src/crawler.js",
+  "scripts": {
+    "install-browser": "npx playwright install chromium",
+    "login": "node src/crawler.js login",
+    "crawl": "node src/crawler.js crawl",
+    "crawl-one": "node src/crawler.js one"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "playwright": "^1.49.1"
+  }
+}
